@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 10px;
+}
+:root{
+    --cor1:#000;
+    --cor2:#fff;
+    --cor3:#0059ffb4;
+    --cor4:#4756de;
+}
+header{
+    width:50%;
+    margin: auto;
+    background-color: var(--cor4);
+    text-align: center;
+    color: var(--cor2);
+    border-radius:5% 5% 0% 0%;
+}
+main{
+    width:50%;
+    height: 100%;
+    margin: auto;
+    background-color: var(--cor3);
+    text-align: center;
+    color: var(--cor2);
+    border-radius:0% 0% 5% 5%;
+    
+}
+form>p>input{
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    color: var(--cor1);
+}
